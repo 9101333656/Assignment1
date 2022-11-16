@@ -1,0 +1,36 @@
+Action Class--
+
+Action class is the concrete class of selenium which is used to perform various keyword and mouse gestures like 
+moving the cursor to an element or dragging and droping an element on the destination element.
+
+This class has approximately 21 methods to perform the keyword and mouse gestures. There are --
+
+1.moveToElement(WebElement)
+2.moveToElement(WebElement,xoffset,yoffset)
+3.moveByOffset(xoffset,yoffset)
+4.perform()
+5.click()
+6.click(WebElement)
+7.doubleClick()
+8.doubleClick(WebElement)
+9.contextClick()
+10.contextClick(WebElement)
+11.dragAndDrop(WebElementSource,WebElementDestination)
+12.dragAndDrop(WebElementSource,xoffset,yoffset)
+13.sendKeys(character sequence)
+14.sendKeys(WebElement,characterSequence)
+15.keyDown(characterSequence)
+16.keyUp(characterSequence)
+17.clickAndHold(WebElement)
+18.release()
+19.release(WebElement)
+20.build()
+
+=======================================================================================================
+Select class--
+
+Ii is the concrete class of selenium which has lot of non static methods to handle both single select and multi select
+list-box.
+Select class methods will work only if the list-box is created using select tag.
+
+example--  <select>____ _ _ __</select>
